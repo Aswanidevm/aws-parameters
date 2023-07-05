@@ -14,4 +14,3 @@ variable "paramter"{
   { name = "dev.frontend.payment_url", value = "http://payment-dev.myprojecdevops.info:8080/", type = "String" },
 ]
 }
-}
