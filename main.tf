@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "parameter" {
-  count = length.(var.paramter)
+  count = length.var.paramter
   name  = var.paramter(count.index).name
   type  = var.paramter(count.index).type
   value = var.paramter(count.index).value
