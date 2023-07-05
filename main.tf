@@ -7,10 +7,10 @@ resource "aws_ssm_parameter" "parameter" {
 
 variable "paramter"{
     default = [
-  { name = "dev.frontend.catalogue_url", value = "http://catalogue-dev.myprojecdevops.info:8080/", type = "String" },
-  { name = "dev.frontend.user_url", value = "http://user-dev.myprojecdevops.info:8080/", type = "String" },
-  { name = "dev.frontend.cart_url", value = "http://cart-dev.myprojecdevops.info:8080/", type = "String" },
-  { name = "dev.frontend.shipping_url", value = "http://shipping-dev.myprojecdevops.info:8080/", type = "String" },
-  { name = "dev.frontend.payment_url", value = "http://payment-dev.myprojecdevops.info:8080/", type = "String" },
+  { name = "roboshop.dev.frontend.catalogue_url", value = "http://catalogue-dev.myprojecdevops.info:8080/", type = "String" },
+  { name = "roboshop.dev.frontend.user_url", value = "http://user-dev.myprojecdevops.info:8080/", type = "String" },
+  { name = "roboshop.dev.frontend.cart_url", value = "http://cart-dev.myprojecdevops.info:8080/", type = "String" },
+  { name = "roboshop.dev.frontend.shipping_url", value = "http://shipping-dev.myprojecdevops.info:8080/", type = "String" },
+  { name = "roboshop.dev.frontend.payment_url", value = "http://payment-dev.myprojecdevops.info:8080/", type = "String" },
 ]
 }
