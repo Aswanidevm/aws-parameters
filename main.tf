@@ -24,5 +24,5 @@ variable "paramter"{
   { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.myprojecdevops.info", type = "String" },
   { name = "roboshop.dev.payment.amqp_user", value = "8080", type = "String" },
   { name = "roboshop.dev.payment.amqp_pass", value = "8080", type = "String" },
-  
+    ]
 }
