@@ -36,8 +36,7 @@ variable "paramter"{
   { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
   { name = "roboshop.dev.user.redis_host", value = "redis-dev.myprojecdevops.info", type = "String" },
   { name = "roboshop.dev.dispatch.amqp_host", value = "rabbitmq-dev.myprojecdevops.info", type = "String" },
-
-    //    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.rdevopsb73.online:27017/users", type = "String" },
+  { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.myprojecdevops.info", type = "String" },
   { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
   { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
   { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
